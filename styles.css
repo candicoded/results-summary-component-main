@@ -1,0 +1,83 @@
+:root { 
+/*Primary*/
+--light-red: hsl(0, 100%, 67%);
+--orangey: yellow: hsl(39, 100%, 56%);
+--green-teal: hsl(166, 100%, 37%);
+--cobalt-blue: hsl(234, 85%, 45%);
+
+ /*Gradients*/
+ /*background*/
+--light-slate-blue: hsl(252, 100%, 67%);
+--light-royal-blue: hsl(241, 81%, 54%);
+
+/*circle*/
+--violet-blue: hsla(256, 72%, 46%, 1);
+--persian-blue: hsla(241, 72%, 46%, 0);
+
+ /*Neutral*/
+--white: hsl(0, 0%, 100%);
+--pale-blue: hsl(221, 100%, 96%);
+--light-lavender: hsl(241, 100%, 89%);
+--dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.purple-section {
+  background-color: var(--violet-blue);
+  border-radius: 0 0 10px 10px;
+  color: var(--white);
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  font-size: 18px;
+}
+
+.summary-section {
+  padding: 0 1.5em 1.5em 1.5em;
+}
+
+.summary-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;  
+}
+
+.reaction {
+  color: var(--light-red);
+  font-weight: 700;
+}
+
+button {
+  background-color: var(--dark-gray-blue);
+  border: none;
+  color: var(--white);
+  width: 100%;
+  border-radius: 2em;
+  padding: 1em;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
