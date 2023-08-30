@@ -74,6 +74,8 @@ h2 {
 .of-hundred {
   color: var(--light-lavender);
   font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.5;
 }
 
 p {
@@ -91,7 +93,7 @@ p {
   align-items: center;
   font-size: 0.9rem;
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin-bottom: 1em;
 }
 
@@ -100,6 +102,7 @@ p {
 .verbal,
 .visual {
   font-weight: 700;
+  padding-right: 10em;
 }
 
 .reaction {
@@ -142,6 +145,7 @@ p {
 .hundred {
   color: var(--dark-gray-blue);
   font-weight: 700;
+  opacity: 0.5;
 }
 
 button {
@@ -159,7 +163,35 @@ button {
 footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   font-size: 12px;
   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  main {
+    max-width: 80%;
+    display: flex;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 80%, 0.3),
+      -15px -1px 15px hsla(0, 0%, 80%, 0.3);
+    border-radius: 30px;
+  }
+
+  .purple-section {
+    border-radius: 30px;
+    width: 300px;
+  }
+
+  button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+  }
 }
