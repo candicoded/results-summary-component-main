@@ -102,11 +102,11 @@ p {
 .verbal,
 .visual {
   font-weight: 700;
-  padding-right: 10em;
 }
 
 .reaction {
   color: var(--light-red);
+  padding-right: 10em;
 }
 
 .reaction-bg {
@@ -115,6 +115,7 @@ p {
 
 .memory {
   color: var(--orangey-yellow);
+  padding-right: 10em;
 }
 
 .memory-bg {
@@ -123,6 +124,7 @@ p {
 
 .verbal {
   color: var(--green-teal);
+  padding-right: 11em;
 }
 
 .verbal-bg {
@@ -131,6 +133,7 @@ p {
 
 .visual {
   color: var(--cobalt-blue);
+  padding-right: 11em;
 }
 
 .visual-bg {
@@ -187,6 +190,10 @@ footer {
 
   .purple-section {
     border-radius: 30px;
+    width: 300px;
+  }
+
+  .summary-section {
     width: 300px;
   }
 
