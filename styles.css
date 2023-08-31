@@ -182,19 +182,70 @@ footer {
 
   main {
     max-width: 80%;
+    height: 65%;
     display: flex;
     box-shadow: 15px 15px 15px hsla(0, 0%, 80%, 0.3),
       -15px -1px 15px hsla(0, 0%, 80%, 0.3);
     border-radius: 30px;
   }
 
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
   .purple-section {
     border-radius: 30px;
     width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .result-circle {
+    width: 175px;
+    height: 175px;
+  }
+
+  .result {
+    font-size: 4rem;
+  }
+
+  .of-hundred {
+    font-size: 1rem;
   }
 
   .summary-section {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 2em 2em 2em;
+  }
+
+  .summary-result {
+    padding: 1em;
+  }
+
+  .reaction,
+  .memory,
+  .verbal,
+  .visual,
+  .bold-num,
+  .hundred {
+    font-size: 1rem;
+  }
+
+  .reaction,
+  .memory {
+    padding-right: 7em;
+  }
+
+  .verbal,
+  .visual {
+    padding-right: 7.5em;
   }
 
   button:hover {
