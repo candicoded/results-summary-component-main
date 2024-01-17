@@ -21,7 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-html-css-YYUFn4Y0tQ
+- Live Site URL: https://candicoded.github.io/results-summary-component-main/
 
 ### What I learned
+I learned that you can put gradients in a CSS variable which I'll know for next time.
